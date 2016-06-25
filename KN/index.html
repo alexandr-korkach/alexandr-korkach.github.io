@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KN</title>
+    <style>
+        .selection-screen-back{
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding-top: 250px;
+        }
+        .selection-block{
+            text-align: center;
+        }
+        .selection-block__button{
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            border: none;
+            outline: none;
+            background-color: aqua;
+            color: black;
+            font-size: 25px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .selection-block__button:hover{
+            border: 2px solid red;
+            height: 44px;
+            margin-top: 3px
+                        
+        }
+        .selection-block__button[value="0"]:hover{
+            border: 2px solid green;
+
+        }
+        .game{
+            padding-top: 100px;
+        }
+        .game-table {
+           
+            margin: auto;
+            background-color: aqua;
+            border-collapse: collapse
+        }
+        .game-table td{
+            text-align: center;
+            vertical-align: middle;
+            font-size: 30px;
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+        }
+        .end-block{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="game" id="game"></div>
+<script src="game.js"></script>    
+</body>
+</html>
