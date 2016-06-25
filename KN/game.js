@@ -51,6 +51,8 @@ Game.prototype.start = function(e){
             this.playerId = 2;
             this.aiStart();
         }else{
+            this.playerColor = "red";//0-x, 1-0;
+            this.aiColor = "green";
             this.playerId = 1;
             this.turn;
         }
