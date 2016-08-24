@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/js.js"],"names":[],"mappings":"AAAA,IAAI,KAAK,CAAT;AACA,IAAI,KAAK,CAAC,CAAD,EAAG,CAAH,EAAK,CAAL,CAAT;AACA,IAAI,KAAK,CAAC,GAAG,EAAJ,EAAO,CAAP,EAAS,CAAT,CAAT","file":"js.js","sourcesContent":["let ff = 1;\r\nlet gg = [1,2,3];\r\nlet mm = [...gg,4,5];"]}
